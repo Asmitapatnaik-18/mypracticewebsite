@@ -106,7 +106,7 @@ body {
 
 hr {
   margin: 1rem 0;
-  color: lightblue;
+  color: sandybrown;
   border: 0;
   border-top: 1px solid;
   opacity: 0.25;
@@ -118,8 +118,6 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 800;
   line-height: 1.2;
-  color: #800020;
-
 }
 
 h1, .h1 {
@@ -127,8 +125,7 @@ h1, .h1 {
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 3rem; 
-    color:white;
+    font-size: 3rem;
   }
 }
 
@@ -168,8 +165,8 @@ h6, .h6 {
 }
 
 p {
-  margin-top: 80;
-  margin-bottom: 10rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 abbr[title] {
@@ -618,7 +615,7 @@ progress {
 }
 
 .figure-img {
-  margin-bottom: 10rem;
+  margin-bottom: 0.5rem;
   line-height: 1;
 }
 
@@ -2802,9 +2799,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #A10000;
-  --bs-btn-border-color: #A10000;
-  --bs-btn-border-color: #A10000;
+  --bs-btn-bg: #0085A1;
+  --bs-btn-border-color: #0085A1;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #007189;
   --bs-btn-hover-border-color: #006a81;
